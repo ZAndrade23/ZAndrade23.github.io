@@ -43,13 +43,19 @@ body{
 }
 h4{
   font-size: 28px;
+  margin-top: 0%;
+  margin-left:
 }
 h5{
   font-size: 18px;
+ margin-top: -6%;
+  margin-left: 79%;
  
 }
 h6{
   font-size: 12px;
+  margin-top: -2%;
+  margin-left: 1%;
 
 }
 li{
