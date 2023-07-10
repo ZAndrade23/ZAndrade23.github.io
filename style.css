@@ -1,18 +1,18 @@
 body{
-  backround-color: #696969;
-  color: #00ffff
+  background-color: #fffff0;
+  color: #000000;
     font-family: Ariel,Helvetica, sans-serif;
-  margin: 10% 20%;
+  margin: 0% 10%;
+  
 }
-
 .line{
   text-align: center;
   text-transform: uppercase;
   border-top: 1px solid #00bfff;
   border-bottom: 1px solid #00bfff;
-  backround-color rgba(0,0,0, 0.1)
-}
-  .pop-outin { animation: 2s anim-popoutin ease infinite;
+  background-color: rgba(0,0,0, 0.1);
+ 
+}.pop-outin { animation: 2s anim-popoutin ease infinite;
 }
 
 @keyframes anim-popoutin {
@@ -41,6 +41,13 @@ body{
     text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
   }
 }
+
+p{text-indent: 20px;
+  
+}
+h1{text-align: center;
+  
+}
 h4{
   font-size: 28px;
   margin-top: 0%;
@@ -49,28 +56,26 @@ h4{
 h5{
   font-size: 18px;
  margin-top: -6%;
-  margin-left: 79%;
- 
+  margin-left: 79%
 }
 h6{
   font-size: 12px;
   margin-top: -2%;
-  margin-left: 1%;
+  margin-left: 1%
 
 }
 li{
   font-size: 16px;
+  text-indent: 20px;
 }
+
 button {
   margin-top: 20px;
   line-height: 60px;
   font-weight: bold;
   padding: 0 40px;
   background: deepskyblue;
-  border: none;
-}
-button:hover {
-  background: deepskyblue;
+  border-radius: 50%;
 }
 .animate-charcter
 {
