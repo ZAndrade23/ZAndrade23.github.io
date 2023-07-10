@@ -7,14 +7,15 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+  <div id="body">
   <div>
-     <div class="container">
+    <div class="container">
   <div class="row">
     <div class="col-md-12 text-center">
       <h1 class="animate-charcter"> Zach Andrade</h1>
     </div>
   </div>
-</div>
+    </div>
     <p>I am a youthful and experienced bartender that can fit with any crew. I’ve worked in diverse environments and at
        events that have elevated my bartending skills. I’ve put myself into different situations to gain the necessary
        knowledge and mastering of my craft. I believe I’ve done so in a shorter time than most because I am passionate
@@ -35,33 +36,31 @@
           all cooking needs. I am also required to clean the bar, dining and kitchen areas. Also Restocking goods, serving, and
           bussing tables is expected to give our customers the best experience possible. Finally I am trusted to mange the tills and
           counting/rebalancing drawers at the beginning and end of every shift.</li>
-      <li></li>
-      <li></li>
     </ul>
   
   </div>
  
   <div>
      <h4>Minnesota School Of Bartending</h4>
-     <h5>Special Events Traveling Bartender</h5>
+     <h5>Special Events Bartender</h5>
      <h6>January 2022-Current</h6>
     <ul>
       <li>As a traveling bartender I am Responsible for the setup and breakdown of events requiring my support,as well as
         troubleshooting any problem. I’ve Supported over 50 events annually, which ranged from no less than one-hundred
         participants to five-hundred participants. The events include weddings, quinceneras, college garduation parties,
         and office buisness parties.</li>
-      <li></li>
-      <li></li>
     </ul>
   </div>
   
    <div class="line">
      <h3 class='pop-outin'>Education</h3>
+                
   </div>
    
   <div>
      <h4>Professional Mixologist</h4>
-     <h5>Minnesota School Of Bartending,December 2021-January 2022</h5>
+     <h5>M.S.O.B</h5>
+    <h6>December 2021-January 2022</h6>
   
   </div>
        
@@ -71,6 +70,7 @@
   
   
   <div>
+    <nav>
     <h4>Hilton Hotels Bar Manager</h4>
     <h5>Derek Reinstraw</h5>
     <h6>608-381-0701</h6>
@@ -78,15 +78,27 @@
     <h4>Special Events Bartending Coordinator</h4>
     <h5>Ryan Ross</h5>
     <h6>651-331-8394</h6>
+    </nav>
     
   </div>
-   <button onclick="myFunction()">Press Me</button>
-<script>
-function myFunction() {
-  var x = document.createElement("BUTTON");
-  var t = document.createTextNode("Resume Concluded");
-  x.appendChild(t);
-  document.body.appendChild(x);
-}
+  </div>
+   <script>
+    const hideText = () => {
+      document.getElementById("body").style.display = 'none';
+      document.getElementById("hideTextBtn").style.display = 'none';  
+        document.getElementById("showTextBtn").style.display = 'flex';  
+    }
+    const showText = () => {
+      document.getElementById("body").style.display = 'flex';
+        document.getElementById("hideTextBtn").style.display = 'flex';  
+            document.getElementById("showTextBtn").style.display = 'none';
+    }
+  </script>
+   <button id="hideTextBtn" onclick="hideText()">Try Me</button>
+    <h1 class="animate-charcter" id="showTextBtn" style="display:none;">Thank you good sir</h1>
 </body>
-</html>
+
+ 
+  
+    </html>
+
